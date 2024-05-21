@@ -2,15 +2,16 @@ package edu.westminsteru.cmpt300f.turtle
 
 enum Command:
   case Forward(distance: Double)
-  case Backward(distance: Double)
-  case Left(angle: Double)
-  case Right(angle: Double)
-  case PenUp
-  case PenDown
-  
-  case Color(val rgb: Int)
+  // add more command types...
 
-  case Reset
-  case Clear
-  
-  case Repeat(count: Int, commands: Seq[Command])
+object Command:
+  private val NUMBER_REGEX = raw"\d+('.'\d*)?" // regular expression for just a number (used in others)
+
+  // Regular expressions for each of the command types
+  private val MOVE_REGEX = raw"^(forward|backward) ($NUMBER_REGEX)$$".r
+  // add more...
+
+  def parse(text: String): Command = text match
+    case MOVE_REGEX("forward", distance) => Forward(distance.toDouble)
+    // add more cases...
+

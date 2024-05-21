@@ -55,6 +55,7 @@ class TurtleCanvas(val fieldWidth: Int, val fieldHeight: Int) extends JComponent
 
   def executeCommand(command: Command): Unit =
     import Command._
+
     command match
       case Forward(distance)        =>
         val newTurtle = turtle.move(distance)
@@ -63,37 +64,7 @@ class TurtleCanvas(val fieldWidth: Int, val fieldHeight: Int) extends JComponent
           bufferGraphics.draw(new Line2D.Double(turtle.x, turtle.y, newTurtle.x, newTurtle.y))
         turtle = newTurtle
 
-      case Backward(distance)       =>
-        val newTurtle = turtle.move(-distance)
-        bufferGraphics.setPaint(new java.awt.Color(turtle.color))
-        if (turtle.penDown)
-          bufferGraphics.draw(new Line2D.Double(turtle.x, turtle.y, newTurtle.x, newTurtle.y))
-        turtle = newTurtle
-
-      case Left(angle)              =>
-        turtle = turtle.turn(-angle)
-
-      case Right(angle)             =>
-        turtle = turtle.turn(angle)
-
-      case PenUp                    =>
-        turtle = turtle.setPenDown(false)
-
-      case PenDown                  =>
-        turtle = turtle.setPenDown(true)
-
-      case Command.Color(rgb)       =>
-        turtle = turtle.setPenColor(rgb)
-
-      case Reset                    =>
-        resetTurtle()
-
-      case Clear                    =>
-        clearCanvas()
-
-      case Repeat(count, commands)  =>
-        for (_ <- 0 until count)
-          commands.foreach(executeCommand)
+      // handle other commands...
 
     Thread.sleep(120)
     repaint()

@@ -4,33 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4ba0660f-8246-4906-a69e-3354d4699b9e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/antlr_4_13_1_complete.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/scala_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024may_cmpt300f_activity3.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/antlr-4.13.1-complete.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parser/Turtle.g4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parser/parser.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parser/src/edu/westminsteru/cmpt300f/turtle/parser/Turtle.interp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parser/src/edu/westminsteru/cmpt300f/turtle/parser/Turtle.tokens" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parser/src/edu/westminsteru/cmpt300f/turtle/parser/TurtleBaseVisitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parser/src/edu/westminsteru/cmpt300f/turtle/parser/TurtleLexer.interp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parser/src/edu/westminsteru/cmpt300f/turtle/parser/TurtleLexer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parser/src/edu/westminsteru/cmpt300f/turtle/parser/TurtleLexer.tokens" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parser/src/edu/westminsteru/cmpt300f/turtle/parser/TurtleParser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parser/src/edu/westminsteru/cmpt300f/turtle/parser/TurtleVisitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/westminsteru/cmpt300f/turtle/Command.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/westminsteru/cmpt300f/turtle/Turtle.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/westminsteru/cmpt300f/turtle/TurtleCanvas.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/westminsteru/cmpt300f/turtle/TurtleMain.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/westminsteru/cmpt300f/turtle/TurtleVisitor.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/westminsteru/cmpt300f/turtle/TurtleWindow.scala" afterDir="false" />
+    <list default="true" id="4ba0660f-8246-4906-a69e-3354d4699b9e" name="Changes" comment="Started readme">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr-4.13.1-complete.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parser/Turtle.g4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parser/parser.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parser/src/edu/westminsteru/cmpt300f/turtle/parser/Turtle.interp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parser/src/edu/westminsteru/cmpt300f/turtle/parser/Turtle.tokens" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parser/src/edu/westminsteru/cmpt300f/turtle/parser/TurtleBaseVisitor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parser/src/edu/westminsteru/cmpt300f/turtle/parser/TurtleLexer.interp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parser/src/edu/westminsteru/cmpt300f/turtle/parser/TurtleLexer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parser/src/edu/westminsteru/cmpt300f/turtle/parser/TurtleLexer.tokens" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parser/src/edu/westminsteru/cmpt300f/turtle/parser/TurtleParser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parser/src/edu/westminsteru/cmpt300f/turtle/parser/TurtleVisitor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/westminsteru/cmpt300f/turtle/Command.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/westminsteru/cmpt300f/turtle/Command.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/westminsteru/cmpt300f/turtle/TurtleCanvas.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/westminsteru/cmpt300f/turtle/TurtleCanvas.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/westminsteru/cmpt300f/turtle/TurtleMain.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/westminsteru/cmpt300f/turtle/TurtleMain.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/westminsteru/cmpt300f/turtle/TurtleVisitor.scala" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +29,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
@@ -57,7 +53,7 @@
     "Application.TurtleMain.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "handparse",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/home/kathy/IdeaProjects/2024may_cmpt300f_activity3/parser",
     "node.js.detected.package.eslint": "true",
@@ -94,6 +90,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.TurtleMain" />
+        <item itemvalue="Application.TurtleMain" />
       </list>
     </recent_temporary>
   </component>
@@ -117,11 +114,33 @@
       <option name="presentableId" value="Default" />
       <updated>1716219858725</updated>
       <workItem from="1716219859742" duration="23000" />
-      <workItem from="1716219889061" duration="11709000" />
+      <workItem from="1716219889061" duration="13128000" />
     </task>
+    <task id="LOCAL-00001" summary="Complete">
+      <option name="closed" value="true" />
+      <created>1716299037837</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1716299037837</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Started readme">
+      <option name="closed" value="true" />
+      <created>1716299201086</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1716299201086</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Complete" />
+    <MESSAGE value="Started readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="Started readme" />
   </component>
 </project>
